@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'tsp-radio';
+}
+#player{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#next{
+    cursor: pointer;
+}
+#back{
+    cursor: pointer;
+}
+#play_pause{
+    cursor: pointer;
+}
+@font-face{
+    font-family:'tsp-radio';
+    src: url('radiospacebold.ttf');
+}
+main{
+    width: 360px;
+    background: rgb(0, 102, 255);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+header img{
+    margin-top: 20px;
+}
+header p{
+    font-size: 22px;
+}
+header h2{
+    margin: 20px 0px;
+}
+#save{
+    cursor: pointer;
+}
+#content{
+    background: aliceblue;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 15px;
+}
+#volume{
+    text-align: center;
+}
+#volume input{
+    width: 100%;
+}
+h2{
+    margin: 15px 0px;
+}
+#backgrounds{
+    text-align: center;
+}
+#backgrounds button{
+    outline: unset;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#bred{
+    background: rgb(39, 39, 37);
+}
+#bgreen{
+    background: rgb(224, 69, 12);
+}
+#bpink{
+    background: rgb(0, 102, 255);
+}
+#bblue{
+    background: rgb(32, 133, 32);
+}

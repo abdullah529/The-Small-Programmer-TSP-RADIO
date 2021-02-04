@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TSP RADIO.css">
+    <link rel="shortcut icon" href="tsp logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>The Small Programmer TSP RADIO</title>
+</head>
+<body>
+    <main id="player">
+        <header>
+            <img src="tsp logo.png"/>
+            <label><h2>TSP RADIO</h2></label>
+            <label>
+                <marquee behavior="scroll" direction="ltr">
+                    <p id="title_audio"></p>
+                </marquee>
+            </label>
+        </header>
+        <div id="content">
+            <article id="buttons">
+                <img src="back.png" id="back"/>
+                <img src="play.png" id="play_pause"/>
+                <img src="next.png" id="next"/>
+                <img src="save.png" id="save">
+                <audio id="audio_file"></audio>
+            </article>
+            <article id="volume">
+                <label><h2>Volume</h2></label>
+                <input type="range" id="volume_range"/>
+            </article>
+            <article id="backgrounds">
+                <button id="bred"></button>
+                <button id="bgreen"></button>
+                <button id="bpink"></button>
+                <button id="bblue"></button>
+            </article>
+        </div>
+    </main>
+    <script src="TSP RADIO.js"></script>
+    <!-- <script src="TSP VOLUME.js"></script> -->
+</body>
+</html>
